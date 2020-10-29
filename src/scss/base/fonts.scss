@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face{
+  font-family: 'orelo';
+  src: url('/src/fonts/OreloStandardDemiBold.eot');
+  src: url('/src/fonts/OreloStandardDemiBold.eot?#iefix') format('embedded-opentype'),
+       url('/src/fonts/OreloStandardDemiBold.woff') format('woff'),
+       url('/src/fonts/OreloStandardDemiBold.ttf') format('truetype'),
+       url('/src/fonts/OreloStandardDemiBold.svg#orelo_demibold') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap
+}
+
+$font: "orelo";
+$font2: "Roboto";
+
+
+body{
+    font-family: $font2,arial,sans-serif;
+}
+h1{
+    font-family: $font,arial,sans-serif;
+    font-size: 8em;
+    font-weight: bolder;
+    color: $greenTitle;
+}
+h2{
+    font-family: $font,arial,sans-serif;
+    font-weight: lighter;
+    font-size: 1.35em;
+    color: $greenTitle;
+}
+button{
+    font-family: $font2,arial,sans-serif;
+    background-color: inherit;
+    font-weight: bolder;
+    border: 0px;
+    text-transform: uppercase;
+}
+p{
+    font-family: $font2,arial,sans-serif;
+    line-height: 1.2em;
+    color: $greenText;
+    opacity: .85;
+}
